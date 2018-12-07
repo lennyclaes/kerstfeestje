@@ -1,0 +1,15 @@
+{
+    "name": "Kerstfeestje",
+    "short_name": "Kerstfeestje",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#23a925",
+    "theme_color": "#23a925",
+    "icons": [
+        {
+            "src": "img/icon.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        }
+    ]
+}

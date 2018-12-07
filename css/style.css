@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'Christmas';
+    src: url('/fonts/Mountains_of_Christmas/MountainsofChristmas-Regular.ttf');
+}
+
+body {
+    overflow: hidden;
+    background: #e3e3e3;
+
+}
+
+body.party {
+    animation: party 1s ease-in infinite;
+}
+
+.links {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+
+.slinger {
+    width: 70%;
+    margin-top: -200px;
+}
+
+.countdown {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Christmas', Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: currentColor;
+}
+
+@keyframes party {
+    0% {background: #23a925; color: #a92325;}
+    50% {background: #a92325; color: #23a925;}
+    100% {background: #23a925; color: #a92325;}
+}
+
+@media (max-width: 860px) {
+    .box {
+        height: 70vh;
+    }
+
+    .slinger {
+        margin-top: -150px;
+        width: 90%;
+    }
+}
