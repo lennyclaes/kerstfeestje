@@ -1,13 +1,13 @@
 let cacheName = 'countdown-v1';
 let appShellFiles = [
-    '/',
-    '/index.html',
-    '/css/style.css',
-    '/js/countdown.js',
-    '/fonts/Mountains_of_Christmas/MountainsofChristmas-Regular.ttf',
-    '/img/slinger.png',
-    '/img/icon.png',
-    '/manifest.webmanifest'
+    './',
+    './index.html',
+    './css/style.css',
+    './js/countdown.js',
+    './fonts/Mountains_of_Christmas/MountainsofChristmas-Regular.ttf',
+    './img/slinger.png',
+    './img/icon.png',
+    './manifest.webmanifest'
 ];
 
 self.addEventListener('install', (e) => {

@@ -6,9 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="theme-color" content="#23a925">
     <title>Kerstfeest countdown!!</title>
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="manifest" href="/manifest.webmanifest">
-    <link rel="icon" href="/img/icon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="manifest" href="./manifest.webmanifest">
+    <link rel="icon" href="./img/icon.png">
 </head>
 <body>
     <div class="links">
@@ -17,13 +17,13 @@
     </div>
     <div class="box">
         <h1 class="countdown" id="countdown"></h1>
-        <img class="slinger" src="/img/slinger.png" alt="">
+        <img class="slinger" src="./img/slinger.png" alt="">
     </div>  
     <script>
         if('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js');
+            navigator.serviceWorker.register('./sw.js');
         }
     </script>
-    <script src="/js/countdown.js"></script>
+    <script src="./js/countdown.js"></script>
 </body>
 </html>
