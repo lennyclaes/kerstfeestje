@@ -1,7 +1,7 @@
 {
     "name": "Kerstfeestje",
     "short_name": "Kerstfeestje",
-    "start_url": "/index.html",
+    "start_url": "./index.html",
     "display": "standalone",
     "background_color": "#23a925",
     "theme_color": "#23a925",
