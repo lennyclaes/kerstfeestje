@@ -5,7 +5,7 @@
 
 @font-face {
     font-family: 'Christmas';
-    src: url('/fonts/Mountains_of_Christmas/MountainsofChristmas-Regular.ttf');
+    src: url('../fonts/Mountains_of_Christmas/MountainsofChristmas-Regular.ttf');
 }
 
 body {
